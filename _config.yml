@@ -1,5 +1,10 @@
-plugins:
-  - jekyll-feed
+### Site Settings ###
+title               : Hugo Gillberg
+description         : >-
+                      Welcome to an awfully generic portfolio page with awesome unique content personally machine crafted by me.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : hugil/hugil    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -20,6 +25,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+plugins:
   - jemoji
 
 
@@ -28,32 +34,30 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+  name              : Hugo Gillberg
+  image             : https://i.imgur.com/sLiVJvX.png
+#  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : hugo.gillberg@outlook.com
+#  facebook          : your_username
+  github            : hugil
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
-# soundcloud        : your_username
+  linkedin          : hugil
+#  medium            : your_username
+  soundcloud        : hugogillberg
 # spotify           : your_username
-# stackoverflow     : your_user_id
+  stackoverflow     : hugil
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+#  twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
-
 
 ### Posts ###
 permalink: /blog/:title
@@ -64,9 +68,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
-
 
 ### Disqus ###
 disqus: your-short-name-disqus                          # Your website Shortname on disqus
@@ -86,11 +87,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
