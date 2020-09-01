@@ -1,11 +1,15 @@
-- name: HTML5/CSS3
-  percentage: 90
+- name: PowerShell
+  percentage: 70
   color: danger
 
-- name: Go
-  percentage: 80
+- name: Bash
+  percentage: 50
   color:
 
-- name: Python
-  percentage: 70
+- name: C#
+  percentage: 50
+  color: 
+  
+  - name: VB.NET
+  percentage: 90
   color: dark
