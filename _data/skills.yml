@@ -1,0 +1,11 @@
+- name: IT Ops & Incident Management (ITIL)
+  percentage: 90
+  color: info
+
+- name: InfoSec & Risk Management (ISO27000)
+  percentage: 70
+  color: info
+
+- name: Network Engineering (CCNA)
+  percentage: 60
+  color: success
