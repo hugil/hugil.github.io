@@ -4,7 +4,7 @@ description         : >-
                       Welcome to an awfully generic portfolio page with awesome unique content personally machine crafted by me.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : hugil/hugil    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+theme: minimal-mistakes-jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default.
